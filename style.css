@@ -331,6 +331,73 @@ hr{
 }
 
 /* contact end */
+/* About */
+.about-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  .about-img {
+    max-width: 100%;
+    height: auto;
+    background: white;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .about-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .btn-custom {
+    background: coral;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .btn-custom:hover {
+    background: rgb(196, 74, 30);
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .about-text h2 {
+      font-size: 28px;
+    }
+    .about-text p {
+      font-size: 14px;
+    }
+    .about-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .about-text {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-text h2 {
+      font-size: 24px;
+    }
+    .about-text p {
+      font-size: 14px;
+    }
+    .btn-custom {
+      padding: 12px 25px;
+      font-size: 14px;
+    }
+  }
+  /* Footer */
 
 footer{
     background-color: #222222;
